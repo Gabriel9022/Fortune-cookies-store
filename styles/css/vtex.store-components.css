@@ -61,6 +61,13 @@
   margin-bottom: 20px;
 }
 
+.imageElement--cookieBanner {
+  display: flex;
+  max-height: 400px;
+  width: 100%;
+  background-size: cover;
+}
+
 .skuSelectorContainer {
   margin: 1rem 0;
 }
@@ -77,6 +84,17 @@
   }
   .infoCardContainer--info-card-home .infoCardImageContainer {
     width: 70%;
+  }
+  .infoCardContainer--cookies {
+    padding-bottom: 0;
+    padding-right: 0;
+    padding-left: 0;
+    background: #fff;
+  }
+  .infoCardContainer--cookies .infoCardImageContainer {
+    display: flex;
+    padding-bottom: 0;
+    padding-right: 0;
   }
   .imageElement--storePrint {
     margin-bottom: 0px;

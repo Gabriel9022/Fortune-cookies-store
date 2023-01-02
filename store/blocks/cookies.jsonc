@@ -1,0 +1,73 @@
+{
+    "store.custom#cookies": {
+        "blocks": [
+            "image#cookies",
+            "slider-layout#cookies", 
+            "info-card#cookies",
+            "cookies-app"
+        ]
+    },
+
+    "image#cookies": {
+        "props":{
+            "src": "https://valtech.vteximg.com.br/arquivos/fortune-cookie-banner1.jpg",
+            "blockClass": "cookieBanner"
+        }
+    },
+
+    "slider-layout#cookies": {
+        "props": {
+            "itemsPerPage": {
+              "desktop": 1,
+              "tablet": 1,
+              "phone": 1
+            },
+            "infinite": true,
+            "showNavigationArrows": "never",
+            "blockClass": "carouselCookies",
+            "autoplay": {
+                "timeout": 2500,
+                "stopOnHover": false
+            },
+            "showPaginationDots": "never"
+          },
+        "children": ["rich-text#cookies1", "rich-text#cookies2", "rich-text#cookies3"]
+    },
+
+    "rich-text#cookies1": {
+        "props": {
+            "text": "***This is the place of Fortune***",
+            "font": "t-heading-2"
+        }
+    },
+    "rich-text#cookies2": {
+        "props": {
+            "text": "***Relax and enjoy your destiny***",
+            "font": "t-heading-2"
+        }
+    },
+    "rich-text#cookies3": {
+        "props": {
+            "text": "***Be always happy***",
+            "font": "t-heading-2"
+        }
+    },
+
+    "info-card#cookies": {
+        "props": {
+            "id": "info-card-cookies",
+            "isFullModeStyle": false,
+            "textPosition": "CENTER",
+            "textAlignment": "center",
+            "imageUrl": "https://valtech.vteximg.com.br/arquivos/GalletasdelafortunaPor.jpg",
+            //"https://foodandtravel.mx/wp-content/uploads/2021/09/GalletasdelafortunaPor.jpg"
+            "headline": "Are you ready?",
+            "subhead": "You are about to receive important information. <br> Like your phrase of fortune and also your lucky numbers. <br> <br> <br> <br> TRY YOUR FORTUNE COOKIE!",
+            "callToActionMode": "None",
+            "blockClass": "cookies"
+        }
+    }
+
+   
+    
+}

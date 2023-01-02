@@ -6,6 +6,12 @@
   background-color: #F0F0F0;
   min-height: 450px;
 }
+.sliderLayoutContainer--carouselCookies {
+  background: linear-gradient(to top , #fff, #F0F0F0);
+  min-height: 150px;
+  display: flex;
+  justify-content: center;
+}
 
 .sliderTrackContainer {
   max-width: 100%;
